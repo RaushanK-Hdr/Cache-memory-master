@@ -4,13 +4,19 @@
 Inputs:
 
 clock: The system clock driving the cache.
+
 address: 32-bit address from the CPU.
+
 din: Data from the CPU for store operations.
+
 rden: Read enable (high if the CPU requests a read).
+
 wren: Write enable (high if the CPU requests a write).
+
 mq: Data coming from memory (when a cache miss occurs).
 
 Outputs:
+
 hit_miss: 1 if there's a cache hit, 0 if it's a miss.
 q: Data sent to the CPU on a cache hit.
 mdout: Data sent to memory (for write-back).
