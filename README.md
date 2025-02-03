@@ -2,6 +2,7 @@
 ![Untitled](https://github.com/user-attachments/assets/57964d2a-756f-447b-ab75-8f3354dd0b87)
 
 Inputs:
+
 clock: The system clock driving the cache.
 address: 32-bit address from the CPU.
 din: Data from the CPU for store operations.
