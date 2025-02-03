@@ -3,17 +3,17 @@
 
 Inputs:
 
-clock: The system clock driving the cache.
+	clock: The system clock driving the cache.
 
-address: 32-bit address from the CPU.
+	address: 32-bit address from the CPU.
 
-din: Data from the CPU for store operations.
+	din: Data from the CPU for store operations.
 
-rden: Read enable (high if the CPU requests a read).
+	rden: Read enable (high if the CPU requests a read).
 
-wren: Write enable (high if the CPU requests a write).
+	wren: Write enable (high if the CPU requests a write).
 
-mq: Data coming from memory (when a cache miss occurs).
+	mq: Data coming from memory (when a cache miss occurs).
 
 Outputs:
 
