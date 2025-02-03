@@ -4,26 +4,21 @@
 Inputs:
 
 	clock: The system clock driving the cache.
-
 	address: 32-bit address from the CPU.
-
 	din: Data from the CPU for store operations.
-
 	rden: Read enable (high if the CPU requests a read).
-
 	wren: Write enable (high if the CPU requests a write).
-
 	mq: Data coming from memory (when a cache miss occurs).
 
 Outputs:
 
-hit_miss: 1 if there's a cache hit, 0 if it's a miss.
-q: Data sent to the CPU on a cache hit.
-mdout: Data sent to memory (for write-back).
-mrdaddress: Memory read address (used for cache misses).
-mrden: Memory read enable (high when the cache misses and data needs to be fetched).
-mwraddress: Memory write address (used when evicting dirty blocks).
-mwren: Memory write enable (high when data needs to be written back to memory).
+	hit_miss: 1 if there's a cache hit, 0 if it's a miss.
+	q: Data sent to the CPU on a cache hit.
+	mdout: Data sent to memory (for write-back).
+	mrdaddress: Memory read address (used for cache misses).
+	mrden: Memory read enable (high when the cache misses and data needs to be fetched).
+	mwraddress: Memory write address (used when evicting dirty blocks).
+	mwren: Memory write enable (high when data needs to be written back to memory).
 
 
 The data cache implements a 32 KiB, 4-way set associative, 2-word block cache with 32 bit words. 
