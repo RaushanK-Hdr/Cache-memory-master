@@ -1,5 +1,6 @@
 # Cache Memory Block Diagram
-![Untitled](https://github.com/user-attachments/assets/101c1724-ca1c-4bd7-95bd-595ae7fa72fc)
+![Untitled](https://github.com/user-attachments/assets/57964d2a-756f-447b-ab75-8f3354dd0b87)
+
 Inputs:
 clock: The system clock driving the cache.
 address: 32-bit address from the CPU.
